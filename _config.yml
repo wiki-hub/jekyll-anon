@@ -1,6 +1,6 @@
 name: Wikihub Jekyll Anonymous Example
 baseurl: '/jekyll-anon'
-token: 83b6f45c45950823604058b7296e58d6ca9380ff
+token: f32667bdcd6d2ea2c875378cd17de8d382cea8bd
 owner: wiki-hub
 repo: jekyll-anon
 branch: gh-pages
