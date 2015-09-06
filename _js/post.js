@@ -56,7 +56,7 @@
   window.save = function() {
     opts.text = textElem.value;
     opts.message = messageElem.value;
-    opts.title = opts.message;
+    if(opts.message) { opts.title = opts.message; }
 
     wikihub.save(opts)
       .then(function(pull) {
